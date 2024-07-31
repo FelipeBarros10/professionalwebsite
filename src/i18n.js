@@ -11,10 +11,34 @@ const messages = {
       title: 'Companies that i helped with my expertise',
       since: 'Since'
     },
-    educations: {
+    education: {
       title: 'EDUCATION',
       subtitle: 'College',
       course: 'Information of Systems'
+
+    },
+    educationsIte: {
+      subtitle: 'College',
+      course: 'Course:',
+      courseName: 'Information of Systems',
+      start: 'Start:',
+      end: 'End:'
+
+    },
+    educationsDev: {
+      course: 'Course:',
+      courseName: 'FullStack Developer',
+      tech: 'Technologies',
+      start: 'Start:',
+      end: 'End:'
+
+    },
+
+    educationsDoDev: {
+      course: 'Course:',
+      courseName: 'Information of Systems',
+      start: 'Start:',
+      end: 'End:'
 
     }
 
@@ -29,12 +53,34 @@ const messages = {
       title: 'Empresas que ajudei com meu expertise',
       since: 'Desde'
     },
-    educations: {
-      title: 'EDUCAÇÃO',
+    education: {
+      title: 'EDUCAÇÃO'
+    },
+
+    educationsIte: {
       subtitle: 'Faculdade',
-      course: 'Sistemas de Informação'
+      course: 'Curso:',
+      courseName: 'Sistemas de Informação',
+      start: 'Início:',
+      end: 'Fim:'
+
+    },
+    educationsDev: {
+      course: 'Curso:',
+      courseName: 'Desenvolvedor FullStack',
+      tech: 'Tecnologias:',
+      start: 'Início:',
+      end: 'Fim:'
+
+    },
+    educationsDoDev: {
+      course: 'Curso:',
+      courseName: 'Basic JavaScript',
+      start: 'Início:',
+      end: 'Fim:'
 
     }
+
   }
 }
 
