@@ -55,7 +55,7 @@
 <template>
   <div class="flex header-bg-dark flex-wrap p-5 lg:px-20 xl:pl-32 xl:pr-2 lg:pb-10 lg:py-5">
     <div class="w-full items-end flex justify-end">
-      <button class="m-2 mt-4 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 2xl:mr-10 rounded-xl p-2 header-bg-dark text-white text-xl font-bold " @click="changeLanguage">Translate<img class="w-6 mx-auto mt-2" :src="img" alt=""></button>
+      <button class="m-2 mt-4 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 2xl:mr-10 rounded-xl p-2 header-bg-dark-1 text-white text-xl font-bold " @click="changeLanguage">Translate<img class="w-6 mx-auto mt-2" :src="img" alt=""></button>
     </div>
     <div class="w-full lg:w-auto flex justify-center lg:block">
       <div class="flex-none">

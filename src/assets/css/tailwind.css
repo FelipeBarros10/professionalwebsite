@@ -13,12 +13,16 @@ body,
 
 .header-bg-dark{
   background: rgb(5, 2, 0);
-  background: linear-gradient(110deg, rgb(52, 86, 238) 10%, rgb(40, 2, 250) 65%, rgb(98, 73, 241) 80%);
+  background: linear-gradient(110deg, rgb(13, 5, 240) 10%, rgb(153, 55, 189) 65%, rgb(186, 3, 252) 80%);
 }
 
 
 .header-bg-dark-1{
   background: rgb(5, 2, 0);
-  background: linear-gradient(120deg, rgb(41, 4, 253) 0%, rgb(12, 2, 150) 65%, rgb(41, 4, 253) 100%);
+  background: linear-gradient(120deg, rgb(153, 55, 189) 0%, rgb(12, 2, 150) 65%, rgb(41, 4, 253) 100%);
+}
+
+.header-bg-dark-2{
+  background-image: radial-gradient(circle at 20.4% 57.93%, #ff50d9 0, #f447e2 16.67%, #d840ea 33.33%, #b53cf2 50%, #883df9 66.67%, #4141ff 83.33%, #0047ff 100%);
 }
 
