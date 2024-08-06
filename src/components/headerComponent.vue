@@ -53,10 +53,10 @@
   </div>
 </template> -->
 <template>
-  <div class="w-full items-end flex justify-end">
-    <button class="m-2 2xl:mr-10 rounded-xl p-2 header-bg-dark text-white text-xl font-bold " @click="changeLanguage">Translate<img class="w-6 mx-auto mt-2" :src="img" alt=""></button>
-  </div>
-  <div class="flex flex-wrap p-5 lg:px-20 xl:px-32  lg:pb-10 lg:py-5">
+  <div class="flex header-bg-dark flex-wrap p-5 lg:px-20 xl:pl-32 xl:pr-2 lg:pb-10 lg:py-5">
+    <div class="w-full items-end flex justify-end">
+      <button class="m-2 mt-4 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 2xl:mr-10 rounded-xl p-2 header-bg-dark text-white text-xl font-bold " @click="changeLanguage">Translate<img class="w-6 mx-auto mt-2" :src="img" alt=""></button>
+    </div>
     <div class="w-full lg:w-auto flex justify-center lg:block">
       <div class="flex-none">
         <div data-aos="zoom-in-up" class="bg-cover rounded-lg xl:rounded-xl h-60 w-60 transition ease-in-out hover:-translate-y-1 hover:scale-110 hover:skew-y-2 duration-300" :style="'background-image: url(' + require('../assets/images/perfil.jpg') "></div>

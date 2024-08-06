@@ -1,13 +1,13 @@
 <template>
   <div class=" bg-gray-200 px-10 pt-20 py-5 items-center flex flex-col justify-center">
-    <div data-aos="fade-right" class="flex flex-row header-bg-dark justify-center items-center border-b-4 border-r-4 rounded-2xl shadow-xl shadow-blue-800 border-blue-300">
+    <div data-aos="fade-right" class="flex flex-row header-bg-dark justify-center items-center border-b-4 border-r-4 rounded-2xl shadow-xl shadow-purple-300 border-purple-900">
       <img class="w-14 xl:w-20 2xl:w-28 ml-5 mr-3 my-3" src="../assets/images/educacao.png">
       <h1 class="text-white text-4xl xl:text-5xl 2xl:text-6xl font-extrabold 2xl:mr-5 ">{{ $t('education.title') }}</h1>
     </div>
 
-    <div class="xl:flex xl:w-9/12 2xl:w-11/12 xl:justify-center xl:items-center xl:mt-14">
+    <div class="xl:flex xl:w-9/12 2xl:w-11/12 xl:justify-center xl:items-center xl:my-16">
       <div data-aos="fade-up" class="w-12/12 xl:w-4/12 2xl:w-3/12 xl:rounded-3xl flex mt-8 shadow-xl shadow-green-700 flex-col justify-center items-center">
-        <div class="w-full bg-pallete-130 rounded-xl xl:rounded-3xl flex flex-col justify-center items-center">
+        <div class="w-full transition ease-in-out delay-150  hover:translate-y-1 hover:scale-110 bg-pallete-130 rounded-xl xl:rounded-3xl flex flex-col justify-center items-center">
           <div class="w-3/6">
             <img class="w-full my-5 shadow-2xl rounded-full" src="../assets/images/Ite.jpeg" alt="">
           </div>
@@ -22,13 +22,13 @@
             <span class="font-medium text-white text-md my-2 mx-4 xl:my-3 xl:text-xl"><span class="font-bold text-white">{{ $t('educationsIte.course') }}</span> {{ $t('educationsIte.courseName') }} </span>
             <span class="font-medium text-white text-md my-2 xl:my-3 2xl:text-xl"><span class="font-bold text-white">{{ $t('educationsIte.start') }}</span> 2024 </span>
             <span class="font-medium text-white text-md my-2 xl:my-3 2xl:text-xl"><span class="font-bold text-white">{{ $t('educationsIte.end') }}</span> 2027 </span>
-            <button class="bg-btn-ite text-white font-serif rounded-3xl px-3 py-3 2xl:p-6 xl:border-2 xl:border-green-700 xl:rounded-full my-5 xl:mt-16 xl:mb-8 font-bold shadow-xl xl:text-md" @click="goToExternalLink('https://ite.edu.br/paginas/sobre-a-unidade')">SOBRE A ITE</button>
+            <button class="bg-btn-ite hover:bg-green-800 text-white font-serif rounded-3xl px-3 py-3 2xl:p-6 xl:border-2 xl:border-green-700 xl:rounded-full my-5 xl:mt-16 xl:mb-8 font-bold shadow-xl xl:text-md" @click="goToExternalLink('https://ite.edu.br/paginas/sobre-a-unidade')">SOBRE A ITE</button>
           </div>
         </div>
       </div>
 
-      <div data-aos="fade-down" class="w-12/12 xl:w-4/12 2xl:w-3/12  xl:mx-4 flex mt-8 flex-col justify-center items-center">
-        <div class="w-full bg-pallete-120 shadow-xl shadow-purple-700 rounded-xl xl:rounded-3xl flex flex-col justify-center items-center">
+      <div data-aos="fade-down" class="w-12/12 xl:w-4/12 2xl:w-3/12  xl:mx-8 flex mt-8 flex-col justify-center items-center">
+        <div class="w-full transition ease-in-out delay-150  hover:translate-y-1 hover:scale-110 bg-pallete-120 shadow-xl shadow-purple-700 rounded-xl xl:rounded-3xl flex flex-col justify-center items-center">
           <div class="w-3/6">
             <img class="w-full my-5 shadow-2xl rounded-full" src="../assets/images/cursoDev.jpeg" alt="">
           </div>
@@ -49,13 +49,13 @@
             </div>
             <span class="font-medium text-white text-md my-2 xl:my-3 2xl:text-xl"><span class="font-bold text-white">{{ $t('educationsDev.start') }}</span> 2024 </span>
             <span class="font-medium text-white text-md my-2 xl:my-3 2xl:text-xl"><span class="font-bold text-white">{{ $t('educationsDev.end') }}</span>  </span>
-            <button class="bg-btn-curso text-white font-serif rounded-3xl px-3 py-3 my-5 font-bold 2xl:p-6 xl:border-2 xl:border-purple-700 xl:text-sm xl:mt-10 xl:mb-4 xl:rounded-full" @click="goToExternalLink('https://ite.edu.br/paginas/sobre-a-unidade')">SOBRE A CURSO.DEV</button>
+            <button class="bg-btn-curso hover:bg-purple-800 text-white font-serif rounded-3xl px-3 py-3 my-5 font-bold 2xl:p-6 xl:border-2 xl:border-purple-700 xl:text-sm xl:mt-10 xl:mb-4 xl:rounded-full" @click="goToExternalLink('https://ite.edu.br/paginas/sobre-a-unidade')">SOBRE A CURSO.DEV</button>
           </div>
         </div>
       </div>
 
       <div data-aos="fade-up" class="w-12/12 xl:w-4/12 2xl:w-3/12 flex mt-8 flex-col justify-center items-center">
-        <div class="w-full bg-pallete-100 shadow-xl shadow-orange-700 rounded-xl xl:rounded-3xl flex flex-col justify-center items-center">
+        <div class="w-full transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 bg-pallete-100 shadow-xl shadow-orange-700 rounded-xl xl:rounded-3xl flex flex-col justify-center items-center">
           <div class="w-3/6">
             <img class="w-full my-5 shadow-2xl rounded-full" src="../assets/images/dodev.png" alt="">
           </div>
@@ -70,7 +70,7 @@
             <span class="font-medium text-white text-md my-2 xl:my-3 2xl:text-xl"><span class="font-bold text-white">{{ $t('educationsDev.course') }}</span> Básico de JavaScript </span>
             <span class="font-medium text-white text-md my-2 xl:my-3 2xl:text-xl"><span class="font-bold text-white">{{ $t('educationsDev.start') }}</span> 2024 </span>
             <span class="font-medium text-white text-md my-2 xl:my-3 2xl:text-xl"><span class="font-bold text-white">{{ $t('educationsDev.end') }}</span> 2024 </span>
-            <button class="bg-btn-dodev text-white font-serif rounded-3xl px-3 py-3 my-5 font-bold shadow-xl 2xl:p-6 xl:border-2 xl:border-orange-400 xl:text-sm xl:mt-10 xl:mb-8 xl:rounded-full" @click="goToExternalLink('https://br.linkedin.com/company/dodev-school')">SOBRE A DODEV</button>
+            <button class="bg-btn-dodev hover:bg-orange-300 text-white font-serif rounded-3xl px-3 py-3 my-5 font-bold shadow-xl 2xl:p-6 xl:border-2 xl:border-orange-400 xl:text-sm xl:mt-10 xl:mb-8 xl:rounded-full" @click="goToExternalLink('https://br.linkedin.com/company/dodev-school')">SOBRE A DODEV</button>
           </div>
         </div>
       </div>

@@ -8,15 +8,17 @@ html,
 body,
 #app {
   width: 100%;
-  background: rgb(5, 2, 0);
-  background: linear-gradient(223deg, rgb(0, 0, 0,1) 0%, rgb(12, 2, 150) 65%, rgb(0, 0, 0,1));
   height: 100%;
-  background-image: url(../images/back2.jpg);
-  background-position: cover;
-  background-size: center;
 }
 
 .header-bg-dark{
   background: rgb(5, 2, 0);
-  background: linear-gradient(223deg, rgb(0, 0, 0,1) 0%, rgb(12, 2, 150) 65%, rgb(0, 0, 0,1) 100%);
+  background: linear-gradient(110deg, rgb(52, 86, 238) 10%, rgb(40, 2, 250) 65%, rgb(98, 73, 241) 80%);
 }
+
+
+.header-bg-dark-1{
+  background: rgb(5, 2, 0);
+  background: linear-gradient(120deg, rgb(41, 4, 253) 0%, rgb(12, 2, 150) 65%, rgb(41, 4, 253) 100%);
+}
+
