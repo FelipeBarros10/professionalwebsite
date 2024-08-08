@@ -1,4 +1,4 @@
-<template>
+<template >
   <index-header/>
   <educations-component/>
   <about-me-component/>
