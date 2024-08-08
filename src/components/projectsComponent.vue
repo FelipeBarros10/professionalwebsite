@@ -1,16 +1,16 @@
 <template>
   <div class=" bg-gray-50 xl:py-20 xl:px-44 flex w-full flex-col xl:flex-row justify-center items-center">
     <modalProject :isModalProjectsVisible="isModalProjectsVisible" @close="closeModalProjects"/>
-    <div class="w-10/12 xl:w-6/12 mt-10 xl:mt-0 py-10 xl:py-44 xl:px-32 px-14 bg-white justify-center items-center xl:items-start flex flex-col">
+    <div class="w-10/12 xl:w-6/12 mt-10 xl:mt-0 py-10 xl:py-20 xl:px-24 2xl:py-32 2xl:px-32 px-14 bg-white justify-center items-center xl:items-start flex flex-col">
       <div data-aos="fade-up" data-aos-delay="300">
-        <h1 class="font-bold text-pallete-150 text-2xl xl:text-4xl mb-5">
+        <h1 class="font-bold text-pallete-150 text-2xl  2xl:text-4xl mb-5">
           Conheça alguns projetos feitos por mim
         </h1>
-        <span class="text-purple-400 font-thin text-xl xl:text-2xl ml-1">
+        <span class="text-purple-400 font-thin text-xl 2xl:text-2xl ml-1">
           Projetos pessoais e profissionais..
         </span>
       </div>
-      <div @click="putTheModalProjectsVisible" class="button_slide w-full xl:w-8/12">
+      <div @click="putTheModalProjectsVisible" class="button_slide w-full xl:w-9/12 2xl:w-8/12">
         <button  class="text-xl">
           Clique aqui
         </button>
@@ -18,20 +18,19 @@
       </div>
     </div>
 
-    <div
-      data-aos="fade-up"
-      class="w-10/12 xl:w-6/12 border-t-2 xl:border-t-0 xl:border-l-2 xl:border-purple-100 border-purple-200 py-10 px-14 xl:py-44 xl:px-32 bg-white justify-center items-center xl:items-start flex flex-col"
-    >
+    <div class="w-10/12 xl:w-6/12 border-t-2 xl:border-t-0 xl:border-l-2 xl:border-purple-100 border-purple-200 py-10 px-14 xl:py-20 xl:px-24 2xl:py-32 2xl:px-32 bg-white justify-center items-center xl:items-start flex flex-col">
       <div data-aos="fade-up" data-aos-delay="300">
-        <h1 class="font-bold text-pallete-150 text-2xl xl:text-4xl mb-5">
-          Conheça mais sobre a minha história
+        <h1 class="font-bold text-pallete-150 text-2xl 2xl:text-4xl mb-5">
+          Conheça alguns projetos feitos por mim
         </h1>
-        <span class="text-purple-400 font-thin text-xl xl:text-2xl ml-1">
-          Da onde eu venho? Onde vivo? O que como?
+        <span class="text-purple-400 font-thin text-xl 2xl:text-2xl ml-1">
+          Projetos pessoais e profissionais..
         </span>
       </div>
-      <div class="button_slide w-full xl:w-8/12">
-        <button class="text-xl">Clique aqui</button>
+      <div @click="putTheModalProjectsVisible" class="button_slide w-full xl:w-9/12 2xl:w-8/12">
+        <button  class="text-xl">
+          Clique aqui
+        </button>
         <i class="bi bi-arrow-right xl:ml-2 text-xl"></i>
       </div>
     </div>
@@ -86,6 +85,13 @@ export default {
 }
 
 @media (min-width: 1028px) {
+  .button_slide {
+    text-align: center;
+    padding: 10px 0px;
+  }
+}
+
+@media (min-width: 1400px) {
   .button_slide {
     text-align: center;
     padding: 16px 0px;
