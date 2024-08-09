@@ -1,6 +1,7 @@
 <template>
   <div class=" bg-gray-50 xl:py-20 xl:px-44 flex w-full flex-col xl:flex-row justify-center items-center">
     <modalProject :isModalProjectsVisible="isModalProjectsVisible" @close="closeModalProjects"/>
+    <modal-about-me :modalAboutMeVisible="modalAboutMeVisible" @close="closeModalAboutMe"/>
     <div class="w-10/12 xl:w-6/12 mt-10 xl:mt-0 py-10 xl:py-20 xl:px-24 2xl:py-32 2xl:px-32 px-14 bg-white justify-center items-center xl:items-start flex flex-col">
       <div data-aos="fade-up" data-aos-delay="300">
         <h1 class="font-bold text-pallete-150 text-2xl  2xl:text-4xl mb-5">
@@ -21,13 +22,13 @@
     <div class="w-10/12 xl:w-6/12 border-t-2 xl:border-t-0 xl:border-l-2 xl:border-purple-100 border-purple-200 py-10 px-14 xl:py-20 xl:px-24 2xl:py-32 2xl:px-32 bg-white justify-center items-center xl:items-start flex flex-col">
       <div data-aos="fade-up" data-aos-delay="300">
         <h1 class="font-bold text-pallete-150 text-2xl 2xl:text-4xl mb-5">
-          Conheça alguns projetos feitos por mim
+          Conheça mais sobre a minha história
         </h1>
         <span class="text-purple-400 font-thin text-xl 2xl:text-2xl ml-1">
-          Projetos pessoais e profissionais..
+          De onde eu venho? Onde vivo? O que como?
         </span>
       </div>
-      <div @click="putTheModalProjectsVisible" class="button_slide w-full xl:w-9/12 2xl:w-8/12">
+      <div @click="putTheModalAboutMeVisible" class="button_slide w-full xl:w-9/12 2xl:w-8/12">
         <button  class="text-xl">
           Clique aqui
         </button>
@@ -40,9 +41,10 @@
 <script>
 import { ref } from 'vue'
 import modalProject from './ModalProjects/modalProjects.vue'
+import ModalAboutMe from './ModalAboutMe/modalAboutMe.vue'
 
 export default {
-  components: { modalProject },
+  components: { modalProject, ModalAboutMe },
   setup () {
     const isModalProjectsVisible = ref(false)
 
@@ -54,10 +56,23 @@ export default {
       isModalProjectsVisible.value = false
     }
 
+    const modalAboutMeVisible = ref(false)
+
+    function putTheModalAboutMeVisible () {
+      modalAboutMeVisible.value = true
+    }
+
+    function closeModalAboutMe () {
+      modalAboutMeVisible.value = false
+    }
+
     return {
       isModalProjectsVisible,
       putTheModalProjectsVisible,
-      closeModalProjects
+      closeModalProjects,
+      modalAboutMeVisible,
+      putTheModalAboutMeVisible,
+      closeModalAboutMe
     }
   }
 }

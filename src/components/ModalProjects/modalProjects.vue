@@ -20,8 +20,8 @@
 
     <div class="header-bg-dark-1 w-10/12 xl:w-1/3 my-10 xl:ml-5 rounded-lg px-6 py-8 ring-1  shadow-xl">
       <div class="flex justify-center items-center">
-        <div class="flex flex-col transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 items-center justify-center p-8 xl:w-2/6 xl:p-6 2xl:py-8 bg-white shadow-2xl rounded-xl">
-          <a class="" target="_blank" href="https://layout-starbucks.vercel.app/"><img class="w-32 xl:w-full" src="../../assets/images/logostarbucks.png" /></a>
+        <div class="flex flex-col transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 items-center justify-center p-8 xl:w-2/6 xl:p-6 2xl:py-7 2xl:px-8 bg-white shadow-2xl rounded-xl">
+          <a class="" target="_blank" href="https://layout-starbucks.vercel.app/"><img class="w-32 2xl:w-44 xl:w-full" src="../../assets/images/logostarbucks.png" /></a>
         </div>
       </div>
       <h3 class="text-slate-900 dark:text-white mt-8 text-base font-medium tracking-tight">
