@@ -99,6 +99,13 @@ export default {
   color: #fff;
 }
 
+@media (min-width: 320px) {
+  .button_slide {
+    text-align: center;
+    padding: 12px 0px;
+  }
+}
+
 @media (min-width: 1028px) {
   .button_slide {
     text-align: center;

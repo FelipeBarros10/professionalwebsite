@@ -6,7 +6,7 @@
     </div>
 
     <div class="xl:flex xl:w-9/12 2xl:w-11/12 xl:justify-center xl:items-center xl:my-16">
-      <div data-aos="fade-up" class="w-12/12 xl:w-4/12 2xl:w-3/12 xl:rounded-3xl flex mt-8 shadow-xl shadow-green-700 flex-col justify-center items-center">
+      <div data-aos="fade-up" class="w-12/12 xl:w-4/12 2xl:w-3/12 xl:rounded-3xl flex mt-12 shadow-xl shadow-green-700 flex-col justify-center items-center">
         <div class="w-full transition ease-in-out delay-150  hover:translate-y-1 hover:scale-110 bg-pallete-130 rounded-xl xl:rounded-3xl flex flex-col justify-center items-center">
           <div class="w-3/6">
             <img class="w-full my-5 shadow-2xl rounded-full" src="../assets/images/Ite.jpeg" alt="">
@@ -19,7 +19,7 @@
 
           <div class="flex flex-col justify-center items-center">
             <span class="font-medium text-white text-md my-2 xl:my-3 2xl:text-xl"><span class="font-bold text-white">Local:</span> ITE - BAURU</span>
-            <span class="font-medium text-white text-md my-2 mx-4 xl:my-3 xl:text-xl"><span class="font-bold text-white">{{ $t('educationsIte.course') }}</span> {{ $t('educationsIte.courseName') }} </span>
+            <span class="font-medium text-white text-md my-2 mx-4 xl:my-3 2xl:text-xl"><span class="font-bold text-white">{{ $t('educationsIte.course') }}</span> {{ $t('educationsIte.courseName') }} </span>
             <span class="font-medium text-white text-md my-2 xl:my-3 2xl:text-xl"><span class="font-bold text-white">{{ $t('educationsIte.start') }}</span> 2024 </span>
             <span class="font-medium text-white text-md my-2 xl:my-3 2xl:text-xl"><span class="font-bold text-white">{{ $t('educationsIte.end') }}</span> 2027 </span>
             <button class="bg-btn-ite hover:bg-green-800 text-white font-serif rounded-3xl px-3 py-3 2xl:p-6 xl:border-2 xl:border-green-700 xl:rounded-full my-5 xl:mt-16 xl:mb-8 font-bold shadow-xl xl:text-md" @click="goToExternalLink('https://ite.edu.br/paginas/sobre-a-unidade')">SOBRE A ITE</button>
@@ -27,7 +27,7 @@
         </div>
       </div>
 
-      <div data-aos="fade-down" class="w-12/12 xl:w-4/12 2xl:w-3/12  xl:mx-8 flex mt-8 flex-col justify-center items-center">
+      <div data-aos="fade-down" class="w-12/12 xl:w-4/12 2xl:w-3/12  xl:mx-8 flex my-12 flex-col justify-center items-center">
         <div class="w-full transition ease-in-out delay-150  hover:translate-y-1 hover:scale-110 bg-pallete-120 shadow-xl shadow-purple-700 rounded-xl xl:rounded-3xl flex flex-col justify-center items-center">
           <div class="w-3/6">
             <img class="w-full my-5 shadow-2xl rounded-full" src="../assets/images/cursoDev.jpeg" alt="">
@@ -49,12 +49,12 @@
             </div>
             <span class="font-medium text-white text-md my-2 xl:my-3 2xl:text-xl"><span class="font-bold text-white">{{ $t('educationsDev.start') }}</span> 2024 </span>
             <span class="font-medium text-white text-md my-2 xl:my-3 2xl:text-xl"><span class="font-bold text-white">{{ $t('educationsDev.end') }}</span>  </span>
-            <button class="bg-btn-curso hover:bg-purple-800 text-white font-serif rounded-3xl px-3 py-3 my-5 font-bold 2xl:p-6 xl:border-2 xl:border-purple-700 xl:text-sm xl:mt-10 xl:mb-4 xl:rounded-full" @click="goToExternalLink('https://ite.edu.br/paginas/sobre-a-unidade')">SOBRE A CURSO.DEV</button>
+            <button class="bg-btn-curso hover:bg-purple-800 text-white font-serif rounded-3xl px-3 py-3 my-5 font-bold 2xl:p-6 xl:border-2 xl:border-purple-700 xl:text-sm xl:mt-10 xl:mb-4 xl:rounded-full" @click="goToExternalLink('https://curso.dev/')">SOBRE A CURSO.DEV</button>
           </div>
         </div>
       </div>
 
-      <div data-aos="fade-up" class="w-12/12 xl:w-4/12 2xl:w-3/12 flex mt-8 flex-col justify-center items-center">
+      <div data-aos="fade-up" class="w-12/12 xl:w-4/12 2xl:w-3/12 flex mt-8 mb-12 flex-col justify-center items-center">
         <div class="w-full transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 bg-pallete-100 shadow-xl shadow-orange-700 rounded-xl xl:rounded-3xl flex flex-col justify-center items-center">
           <div class="w-3/6">
             <img class="w-full my-5 shadow-2xl rounded-full" src="../assets/images/dodev.png" alt="">
