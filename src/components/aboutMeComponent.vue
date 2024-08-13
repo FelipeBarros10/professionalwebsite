@@ -3,9 +3,7 @@
     <div data-aos="fade-right" class="w-full xl:mx-auto xl:w-2/6 flex flex-col justify-center items-center">
       <h3 class="text-pink-600 font-bold text-3xl 2xl:text-5xl mr-12 2xl:mr-24 mt-10">Quero me apresentar,</h3>
       <p class="text-gray-300 2xl:text-2xl mx-14 mt-3 mb-5">
-        Meu nome é Felipe Ferreira de Barros, tenho 22 anos e atualmente estou cursando faculdade.
-        Desde cedo, sempre fui fascinado pelo mundo da tecnologia e, com o tempo, essa paixão me
-        levou a explorar o desenvolvimento front-end. A combinação de lógica, criatividade e a
+        Meu momento na área de tecnologia está voltada ao desenvolvimento front-end, que é a combinação de lógica, criatividade e a
         capacidade de criar interfaces intuitivas e visualmente agradáveis me cativou e me fez
         seguir esse caminho.</p>
 

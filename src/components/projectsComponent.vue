@@ -2,7 +2,7 @@
   <div class=" bg-gray-50 xl:py-20 xl:px-44 flex w-full flex-col xl:flex-row justify-center items-center">
     <modalProject :isModalProjectsVisible="isModalProjectsVisible" @close="closeModalProjects"/>
     <modal-about-me :modalAboutMeVisible="modalAboutMeVisible" @close="closeModalAboutMe"/>
-    <div class="w-10/12 xl:w-6/12 mt-10 xl:mt-0 py-10 xl:py-20 xl:px-24 2xl:py-32 2xl:px-32 px-14 bg-white justify-center items-center xl:items-start flex flex-col">
+    <div class="w-10/12 xl:w-6/12 mt-10 xl:mt-0 py-10 xl:py-24 xl:px-24 2xl:py-32 2xl:px-32 px-14 bg-white justify-center items-center xl:items-start flex flex-col">
       <div data-aos="fade-up" data-aos-delay="300">
         <h1 class="font-bold text-pallete-150 text-2xl  2xl:text-4xl mb-5">
           Conheça alguns projetos feitos por mim
