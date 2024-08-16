@@ -8,7 +8,7 @@ const messages = {
       Experience: 'Looking for the first opportunity '
     },
     experiencies: {
-      title: 'Companies that i helped with my expertise',
+      title: 'Some expeperiences that involves technologies',
       since: 'Since'
     },
     education: {
@@ -50,7 +50,7 @@ const messages = {
       Experience: 'Procurando a primeira oportunidade'
     },
     experiencies: {
-      title: 'Empresas que ajudei com meu expertise',
+      title: 'Experiências que envolvem tecnologias',
       since: 'Desde'
     },
     education: {

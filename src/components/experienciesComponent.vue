@@ -1,7 +1,7 @@
 <template>
   <div class=" header-bg-dark-1 px-20 pt-20 py-5 flex items-center flex justify-center">
     <div class="-my-6">
-    <h2 class="text-lg text-white font-bold">{{ $t('experiencies.title') }}</h2>
+    <h2 class="text-lg xl:text-xl text-white font-bold">{{ $t('experiencies.title') }}</h2>
       <!-- Experience #1 -->
       <div class="relative pl-8 sm:pl-32 py-6 group">
         <div class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
@@ -41,7 +41,7 @@
       <div class="relative pl-8 sm:pl-32 py-6 group">
         <div class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
           <time class="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-20 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full">
-            2021 - 2019
+            {{ $t('experiencies.since') }} 2024
           </time>
           <div class="bg-white dark:bg-slate-900 rounded-lg px-6 py-5 pb-10 ring-1 ring-slate-900/5 shadow-xl w-full" data-aos="fade-up">
             <div>
@@ -55,13 +55,15 @@
                 <div class="p-5">
                   <p class="text-gray-600">Desenvolvimento de aplicações web e mobile de acordo com a demanda de cada projeto. Gerenciamento e orientatções aos devs de como prosseguir com suas tarefas.</p>
                   <ul class="list-disc list-inside mt-2 text-gray-600">
-                    <li><strong>Camda:</strong> Aplicativo para coleta de dados de entrada e saida de protudos de todas as filiais, utilizando um periférico coletor que utilizasse Android.</li>
-                    <li><strong>Vale do Igapó:</strong> Aplicativo para leitura de registros utilização de volume de agua de casas no Vale do Igapó OFFLINE, pois o vale fica distante da área de rede de dados. </li>
-                    <li><strong>Doutor chama:</strong> Aplicativo Web desenvolvido para clinicas médicas. Cada sala/atendente poderia solicitar a presença de um paciente apertando apenas 1 botão. O paciente seria chamado pelo nome em uma TV que poderia estar instalada em qualquer ambiente que tenha acesso à internet.</li>
-                    <li><strong>Sistel:</strong> Aplicativo BPM Offline, para que técnicos da empresa pudessem ir aos clientes e registrar suas atividades mesmo sem internet. </li>
-                    <li><strong>Protocolo já:</strong> WebApp desenvolvido para gerenciamento e acompanhamento de protocolos realizados por escritórios de advocacia.</li>
+                    <li><strong>Projetos com:</strong></li>
+                    <li class="xl:ml-4"><strong>Vue JS</strong></li>
+                    <li class="xl:ml-4"><strong>Javascript</strong></li>
+                    <li class="xl:ml-4"><strong>Quasar JS</strong></li>
+                    <li class="xl:ml-4"><strong>Tailwind CSS</strong></li>
+                    <li class="xl:ml-4"><strong>HTML</strong></li>
+                    <li class="xl:ml-4"><strong>CSS</strong></li>
                   </ul>
-                  <i>Em todos esses projetos foram utilizados metodologias Ageis, alguns projetos foram omitidos.</i>
+                  <i>Projetos ainda estão sendo desenvolvidos, logo serão incluídos ao meu portifólio</i>
                 </div>
               </div>
             </div>

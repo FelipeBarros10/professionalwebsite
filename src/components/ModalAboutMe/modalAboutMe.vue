@@ -6,11 +6,11 @@
     >
     <div class="header-bg-dark w-10/12 xl:w-8/12  my-10 rounded-lg px-6 py-8 flex  shadow-xl">
       <div class="flex flex-col justify-start xl:w-6/12 items-start">
-        <h1 class="text-pink-600 xl:ml-8 text-base xl:text-3xl font-bold tracking-wide">
+        <h1 class="text-pink-600 xl:ml-8 text-base xl:text-4xl font-bold tracking-wide">
           Sobre mim
         </h1>
 
-        <p class="xl:mx-10 text-gray-300 xl:mt-2 tracking-tight">Eu sou Felipe Ferreira de Barros, de Bauru, SP. Tenho uma paixão profunda por tecnologia, especialmente na área de front-end.
+        <p class="xl:mx-10 text-gray-300 xl:mt-2 xl:text-2xl tracking-tight">Eu sou Felipe Ferreira de Barros, de Bauru, SP. Tenho uma paixão profunda por tecnologia, especialmente na área de front-end.
            Atualmente, estou estudando Sistemas de Informação e me dedicando a cursos e projetos extras para aprimorar minhas habilidades.
            Além dos meus estudos, trabalho como estagiário freelancer em  projetos com um desenvolvedor sênior,
            o que me permite aplicar na prática o que aprendo e explorar novas soluções.
