@@ -42,6 +42,15 @@ const messages = {
       end: 'End:'
 
     },
+    aboutTheSite: {
+      title: 'Introducing myself,',
+      paragraph1: 'My experience in the technology field is focused on front-end development, as the combination of logic, creativity, and the ability to create intuitive and visually appealing interfaces captivated me and led me to pursue this path.',
+      paragraph2: 'This portfolio was created to showcase some of my skills as a front-end developer. Here, I present several projects I have developed using HTML, CSS, JavaScript, and modern frameworks such as Vue.js and Tailwind.'
+    },
+    projectsComponent: {
+      titleProjects: "Check out some of the projects I've worked on",
+      subtitleProjects: 'Personal and professional projects.'
+    },
     professionalExperiences: {
       header: 'Experiences'
     }
@@ -84,6 +93,11 @@ const messages = {
       start: 'Início:',
       end: 'Fim:'
 
+    },
+    aboutTheSite: {
+      title: 'Quero me apresentar,',
+      paragraph1: 'Meu momento na área de tecnologia está voltada ao desenvolvimento front-end, que é a combinação de lógica, criatividade e a capacidade de criar interfaces intuitivas e visualmente agradáveis me cativou e me fez seguir esse caminho.',
+      paragraph2: 'Este portfólio foi criado com o intuito de mostrar parte das minhas habilidades como desenvolvedor front-end. Aqui trago alguns outros projetos que desenvolvi em HTML, CSS, JavaScript e frameworks modernos como Vue.js e Tailwind.'
     },
     professionalExperiences: {
       header: 'Experiências'

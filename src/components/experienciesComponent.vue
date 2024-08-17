@@ -1,5 +1,5 @@
 <template>
-  <div class=" header-bg-dark-1 px-20 pt-20 py-5 items-center flex flex-col items-center justify-center">
+  <div class=" header-bg-dark-1 px-20 pt-20 py-5 '' flex flex-col items-center justify-center">
     <div data-aos="fade-right" class="flex flex-row mb-20 header-bg-dark-2 justify-center items-center border-b-4 border-r-4 rounded-2xl shadow-xl shadow-purple-300 border-purple-900">
       <img class="w-14 xl:w-20 2xl:w-28 ml-5 mr-3 my-3" src="../assets/images/work.png">
       <h1 class="text-white text-4xl xl:text-5xl 2xl:text-6xl font-extrabold xl:mr-5 ">{{ $t('professionalExperiences.header') }}</h1>
