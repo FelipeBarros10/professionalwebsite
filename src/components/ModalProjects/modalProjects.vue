@@ -1,13 +1,13 @@
 <template>
   <div
-    class="modal-overlay fixed  inset-0 z-40 xl:grid xl:grid-cols-2 flex flex-col items-center justify-center"
+    class="modal-overlay fixed inset-0 z-40 xl:grid xl:grid-cols-2 flex flex-col items-center overflow-y-auto justify-center"
     v-if="isModalProjectsVisible"
     @click="closeModal"
     >
-    <div class="header-bg-dark-1 w-9/12 xl:w-4/6 mx-auto my-10 rounded-lg px-6 py-8  shadow-xl">
+    <div class="header-bg-dark-1 w-9/12 xl:w-4/6 mx-auto my-2 mt-72 xl:mt-0 rounded-lg px-6 py-8  shadow-xl">
       <div class="flex justify-center items-center">
         <div class="flex flex-col  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 items-center justify-center xl:w-2/6 p-2 bg-header-dark shadow-2xl rounded-xl">
-          <a target="_blank" href="https://hamburgueria-ycwm.vercel.app/"><img class="w-44" src="../../assets/images/logo.png" /></a>
+          <a target="_blank" href="https://hamburgueria-ycwm.vercel.app/"><img class="xl:w-44" src="../../assets/images/logo.png" /></a>
         </div>
       </div>
       <h3 class="text-slate-900 dark:text-white mt-8 text-base xl:text-xl font-medium tracking-tight">
@@ -18,7 +18,7 @@
       </p>
     </div>
 
-    <div class="header-bg-dark-1 w-9/12 xl:w-4/6 mx-auto my-10 xl:ml-5 rounded-lg px-6 py-8 ring-1  shadow-xl">
+    <div class="header-bg-dark-1 w-9/12 xl:w-4/6 mx-auto my-2 xl:ml-5 rounded-lg px-6 py-8 ring-1  shadow-xl">
       <div class="flex justify-center items-center">
         <div class="flex flex-col transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 items-center justify-center p-8 xl:w-2/6 xl:p-6 2xl:py-7 2xl:px-8 bg-header-dark shadow-2xl rounded-xl">
           <a class="" target="_blank" href="https://layout-starbucks.vercel.app/"><img class="w-32 2xl:w-44 xl:w-full" src="../../assets/images/logostarbucks.png" /></a>
@@ -32,7 +32,7 @@
       </p>
     </div>
 
-    <div class="header-bg-dark-1 w-9/12 xl:w-4/6 mx-auto my-10 rounded-lg px-6 py-8  shadow-xl">
+    <div class="header-bg-dark-1 w-9/12 xl:w-4/6 mx-auto my-2 rounded-lg px-6 py-8  shadow-xl">
       <div class="flex justify-center items-center">
         <div class="flex flex-col  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 items-center justify-center xl:w-2/6 p-2 bg-header-dark shadow-2xl rounded-xl">
           <a target="_blank" href="https://hamburgueria-ycwm.vercel.app/"><img class="w-44" src="../../assets/images/logof.png" /></a>

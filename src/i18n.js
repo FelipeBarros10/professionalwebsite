@@ -8,6 +8,7 @@ const messages = {
       Experience: 'Looking for the first opportunity '
     },
     experiencies: {
+      experienceHeader: 'Experiences',
       title: 'Some expeperiences that involves technologies',
       since: 'Since'
     },
@@ -40,6 +41,9 @@ const messages = {
       start: 'Start:',
       end: 'End:'
 
+    },
+    professionalExperiences: {
+      header: 'Experiences'
     }
 
   },
@@ -50,6 +54,7 @@ const messages = {
       Experience: 'Procurando a primeira oportunidade'
     },
     experiencies: {
+      experienceHeader: 'Experiências',
       title: 'Experiências que envolvem tecnologias',
       since: 'Desde'
     },
@@ -79,6 +84,9 @@ const messages = {
       start: 'Início:',
       end: 'Fim:'
 
+    },
+    professionalExperiences: {
+      header: 'Experiências'
     }
 
   }
