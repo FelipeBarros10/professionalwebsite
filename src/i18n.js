@@ -126,7 +126,10 @@ const messages = {
       featureSubtitleFirstExp2: 'Acompanhamento de produção HXH (Hora a Hora)',
       featureTitleFirstExp3: 'Acesso a acordos em BD:',
       featureSubtitleFirstExp3: 'Através do PgAdmin tenho acesso aos clientes que fecharam acordos e como isso ter uma análise de perfil ou cancelamento de boletos',
-      featureSubtitleFirstExp4: 'Análise de Dashboards em Power BI'
+      featureSubtitleFirstExp4: 'Análise de Dashboards em Power BI',
+      subtitleSecondExp: 'Desenvolvimento de aplicações web e mobile de acordo com a demanda de cada projeto. Gerenciamento e orientatções aos devs de como prosseguir com suas tarefas.',
+      featuresTitleSecondExp: 'Projetos com:',
+      footerSecondExp: 'Projetos ainda estão sendo desenvolvidos, logo serão incluídos ao meu portifólio'
     }
 
   }
