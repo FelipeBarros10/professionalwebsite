@@ -17,22 +17,22 @@
                 <img src="../assets/images/companies-logos/paschoalotto2.png" class="h-20" alt="">
               </span>
             </div>
-            <h3 class="text-slate-900 dark:text-white mt-5 text-base font-medium tracking-tight">ESTÁGIO DE  PLANEJAMENTO DIGITAL - Paschoalotto</h3>
+            <h3 class="text-slate-900 dark:text-white mt-5 text-base font-medium tracking-tight">{{ $t('professionalExperiences.firstExp') }}</h3>
             <div class="text-slate-500 dark:text-slate-400 mt-2 text-sm">
               <div class="mx-auto bg-white rounded-lg shadow-md overflow-hidden">
                 <div class="p-5">
                   <ul class="list-disc list-inside mt-2 text-gray-600">
                     <li>
-                      <strong>Tratamento de Bases de Acionamento:</strong> Responsável pela geração de banco de dados em excel através do R Studio para Agentes Virtuais e  ChatBot
+                      <strong>{{ $t('professionalExperiences.featureTitleFirstExp') }}</strong>{{ $t('professionalExperiences.featureSubtitleFirstExp') }}
                     </li>
                     <li>
-                      <strong>Reports de Produção:</strong> Acompanhamento de produção HXH (Hora a Hora)
+                      <strong>{{ $t('professionalExperiences.featureTitleFirstExp2') }}</strong> {{ $t('professionalExperiences.featureSubtitleFirstExp2') }}
                     </li>
                     <li>
-                      <strong>Acesso a acordos em BD:</strong> Através do PgAdmin tenho acesso aos clientes que fecharam acordos e como isso ter uma análise de perfil ou cancelamento de boletos
+                      <strong>{{ $t('professionalExperiences.featureTitleFirstExp3') }}</strong> {{ $t('professionalExperiences.featureSubtitleFirstExp3') }}
                     </li>
                     <li>
-                      <strong>Power BI:</strong> Análise de Dashboards em Power BI
+                      <strong>Power BI:</strong> {{ $t('professionalExperiences.featureSubtitleFirstExp4') }}
                     </li>
                   </ul>
                 </div>

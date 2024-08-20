@@ -49,10 +49,21 @@ const messages = {
     },
     projectsComponent: {
       titleProjects: "Check out some of the projects I've worked on",
-      subtitleProjects: 'Personal and professional projects.'
+      subtitleProjects: 'Personal and professional projects.',
+      titleAboutMe: 'Find out more about me',
+      subtitleAboutMe: 'Where i come from? Where do i live? What do i eat?',
+      buttonTitle: 'Click here'
     },
     professionalExperiences: {
-      header: 'Experiences'
+      header: 'Experiences',
+      firstExp: 'DIGITAL PLANNING INTERNSHIP - Paschoalotto',
+      featureTitleFirstExp: 'Treatment of dial bases: ',
+      featureSubtitleFirstExp: 'Responsible for generating an Excel database through R Studio for Virtual Agents and ChatBots',
+      featureTitleFirstExp2: 'Production Reports:',
+      featureSubtitleFirstExp2: 'Production monitoring every hour',
+      featureTitleFirstExp3: 'Access to agreements in the DB:',
+      featureSubtitleFirstExp3: 'Through PgAdmin I have access to customers who have closed agreements and how to have a profile analysis or cancellation of bills',
+      featureSubtitleFirstExp4: 'Power BI Dashboards analysis'
     }
 
   },
@@ -99,8 +110,23 @@ const messages = {
       paragraph1: 'Meu momento na área de tecnologia está voltada ao desenvolvimento front-end, que é a combinação de lógica, criatividade e a capacidade de criar interfaces intuitivas e visualmente agradáveis me cativou e me fez seguir esse caminho.',
       paragraph2: 'Este portfólio foi criado com o intuito de mostrar parte das minhas habilidades como desenvolvedor front-end. Aqui trago alguns outros projetos que desenvolvi em HTML, CSS, JavaScript e frameworks modernos como Vue.js e Tailwind.'
     },
+    projectsComponent: {
+      titleProjects: 'Conheça alguns projetos feitos por mim',
+      subtitleProjects: 'Projetos pessoais e profissionais.',
+      titleAboutMe: 'Conheça mais sobre mim',
+      subtitleAboutMe: 'De onde eu venho? Onde vivo? O que eu como?',
+      buttonTitle: 'Clique aqui'
+    },
     professionalExperiences: {
-      header: 'Experiências'
+      header: 'Experiências',
+      firstExp: 'ESTÁGIO DE PLANEJAMENTO DIGITAL - Paschoalotto',
+      featureTitleFirstExp: 'Tratamento de Bases de Acionamento: ',
+      featureSubtitleFirstExp: 'Responsável pela geração de banco de dados em excel através do R Studio para Agentes Virtuais e ChatBot',
+      featureTitleFirstExp2: 'Reports de Produção:',
+      featureSubtitleFirstExp2: 'Acompanhamento de produção HXH (Hora a Hora)',
+      featureTitleFirstExp3: 'Acesso a acordos em BD:',
+      featureSubtitleFirstExp3: 'Através do PgAdmin tenho acesso aos clientes que fecharam acordos e como isso ter uma análise de perfil ou cancelamento de boletos',
+      featureSubtitleFirstExp4: 'Análise de Dashboards em Power BI'
     }
 
   }

@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full header-bg-dark xl:mx-auto xl:flex header-bg-dark">
+  <div class="w-full header-bg-dark xl:mx-auto h-full xl:flex header-bg-dark">
     <div data-aos="fade-right" class="w-full xl:mx-auto xl:w-2/6 flex flex-col justify-center items-center">
       <h3 class="text-pink-600 font-bold text-3xl 2xl:text-5xl mr-12 2xl:mr-24 mt-10">{{ $t('aboutTheSite.title') }}</h3>
       <p class="text-gray-300 2xl:text-2xl mx-14 mt-3 mb-5">
