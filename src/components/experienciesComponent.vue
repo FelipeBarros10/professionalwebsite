@@ -58,9 +58,8 @@
             <div class="text-slate-500 dark:text-slate-400 mt-2 text-sm">
               <div class="mx-auto bg-white rounded-lg shadow-md overflow-hidden">
                 <div class="p-5">
-                  <p class="text-gray-600">Desenvolvimento de aplicações web e mobile de acordo com a demanda de cada projeto. Gerenciamento e orientatções aos devs de como prosseguir com suas tarefas.</p>
                   <ul class="list-disc list-inside mt-2 text-gray-600">
-                    <li><strong>Projetos com:</strong></li>
+                    <li><strong>{{ $t('professionalExperiences.featuresTitleSecondExp') }}</strong></li>
                     <li class="xl:ml-4"><strong>Vue JS</strong></li>
                     <li class="xl:ml-4"><strong>Javascript</strong></li>
                     <li class="xl:ml-4"><strong>Quasar JS</strong></li>
@@ -68,7 +67,7 @@
                     <li class="xl:ml-4"><strong>HTML</strong></li>
                     <li class="xl:ml-4"><strong>CSS</strong></li>
                   </ul>
-                  <i>Projetos ainda estão sendo desenvolvidos, logo serão incluídos ao meu portifólio</i>
+                  <i>{{ $t('professionalExperiences.footerSecondExp') }}</i>
                 </div>
               </div>
             </div>

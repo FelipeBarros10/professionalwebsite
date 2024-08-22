@@ -22,7 +22,7 @@
             <span class="font-medium text-white text-md my-2 mx-4 xl:my-3 2xl:text-xl"><span class="font-bold text-white">{{ $t('educationsIte.course') }}</span> {{ $t('educationsIte.courseName') }} </span>
             <span class="font-medium text-white text-md my-2 xl:my-3 2xl:text-xl"><span class="font-bold text-white">{{ $t('educationsIte.start') }}</span> 2024 </span>
             <span class="font-medium text-white text-md my-2 xl:my-3 2xl:text-xl"><span class="font-bold text-white">{{ $t('educationsIte.end') }}</span> 2027 </span>
-            <button class="bg-btn-ite hover:bg-green-800 text-white font-serif rounded-3xl px-3 py-3 2xl:p-6 xl:border-2 xl:border-green-700 xl:rounded-full my-5 xl:mt-16 xl:mb-8 font-bold shadow-xl xl:text-md" @click="goToExternalLink('https://ite.edu.br/paginas/sobre-a-unidade')">SOBRE A ITE</button>
+            <button class="bg-btn-ite hover:bg-green-800 text-white font-serif rounded-3xl px-3 py-3 2xl:p-6 xl:border-2 xl:border-green-700 xl:rounded-full my-5 xl:mt-16 xl:mb-8 font-bold shadow-xl xl:text-md" @click="goToExternalLink('https://ite.edu.br/paginas/sobre-a-unidade')">{{ $t('educationsIte.about') }}</button>
           </div>
         </div>
       </div>
@@ -49,7 +49,7 @@
             </div>
             <span class="font-medium text-white text-md my-2 xl:my-3 2xl:text-xl"><span class="font-bold text-white">{{ $t('educationsDev.start') }}</span> 2024 </span>
             <span class="font-medium text-white text-md my-2 xl:my-3 2xl:text-xl"><span class="font-bold text-white">{{ $t('educationsDev.end') }}</span>  </span>
-            <button class="bg-btn-curso hover:bg-purple-800 text-white font-serif rounded-3xl px-3 py-3 my-5 font-bold 2xl:p-6 xl:border-2 xl:border-purple-700 xl:text-sm xl:mt-10 xl:mb-4 xl:rounded-full" @click="goToExternalLink('https://curso.dev/')">SOBRE A CURSO.DEV</button>
+            <button class="bg-btn-curso hover:bg-purple-800 text-white font-serif rounded-3xl px-3 py-3 my-5 font-bold 2xl:p-6 xl:border-2 xl:border-purple-700 xl:text-sm xl:mt-10 xl:mb-4 xl:rounded-full" @click="goToExternalLink('https://curso.dev/')">{{ $t('educationsDev.about') }}</button>
           </div>
         </div>
       </div>
@@ -70,7 +70,7 @@
             <span class="font-medium text-white text-md my-2 xl:my-3 2xl:text-xl"><span class="font-bold text-white">{{ $t('educationsDev.course') }}</span> Básico de JavaScript </span>
             <span class="font-medium text-white text-md my-2 xl:my-3 2xl:text-xl"><span class="font-bold text-white">{{ $t('educationsDev.start') }}</span> 2024 </span>
             <span class="font-medium text-white text-md my-2 xl:my-3 2xl:text-xl"><span class="font-bold text-white">{{ $t('educationsDev.end') }}</span> 2024 </span>
-            <button class="bg-btn-dodev hover:bg-orange-300 text-white font-serif rounded-3xl px-3 py-3 my-5 font-bold shadow-xl 2xl:p-6 xl:border-2 xl:border-orange-400 xl:text-sm xl:mt-10 xl:mb-8 xl:rounded-full" @click="goToExternalLink('https://br.linkedin.com/company/dodev-school')">SOBRE A DODEV</button>
+            <button class="bg-btn-dodev hover:bg-orange-300 text-white font-serif rounded-3xl px-3 py-3 my-5 font-bold shadow-xl 2xl:p-6 xl:border-2 xl:border-orange-400 xl:text-sm xl:mt-10 xl:mb-8 xl:rounded-full" @click="goToExternalLink('https://br.linkedin.com/company/dodev-school')">{{ $t('educationsDoDev.about') }}</button>
           </div>
         </div>
       </div>

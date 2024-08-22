@@ -23,7 +23,8 @@ const messages = {
       course: 'Course:',
       courseName: 'Information of Systems',
       start: 'Start:',
-      end: 'End:'
+      end: 'End:',
+      about: 'ABOUT ITE'
 
     },
     educationsDev: {
@@ -31,7 +32,8 @@ const messages = {
       courseName: 'FullStack Developer',
       tech: 'Technologies',
       start: 'Start:',
-      end: 'End:'
+      end: 'End:',
+      about: 'ABOUT CURSO.DEV'
 
     },
 
@@ -39,7 +41,8 @@ const messages = {
       course: 'Course:',
       courseName: 'Information of Systems',
       start: 'Start:',
-      end: 'End:'
+      end: 'End:',
+      about: 'ABOUT DODEV'
 
     },
     aboutTheSite: {
@@ -63,7 +66,9 @@ const messages = {
       featureSubtitleFirstExp2: 'Production monitoring every hour',
       featureTitleFirstExp3: 'Access to agreements in the DB:',
       featureSubtitleFirstExp3: 'Through PgAdmin I have access to customers who have closed agreements and how to have a profile analysis or cancellation of bills',
-      featureSubtitleFirstExp4: 'Power BI Dashboards analysis'
+      featureSubtitleFirstExp4: 'Power BI Dashboards analysis',
+      featuresTitleSecondExp: 'Projects with:',
+      footerSecondExp: 'Projects are still being developed, they will soon be included in my portfolio'
     }
 
   },
@@ -87,7 +92,8 @@ const messages = {
       course: 'Curso:',
       courseName: 'Sistemas de Informação',
       start: 'Início:',
-      end: 'Fim:'
+      end: 'Fim:',
+      about: 'SOBRE A ITE'
 
     },
     educationsDev: {
@@ -95,14 +101,16 @@ const messages = {
       courseName: 'Desenvolvedor FullStack',
       tech: 'Tecnologias:',
       start: 'Início:',
-      end: 'Fim:'
+      end: 'Fim:',
+      about: 'SOBRE A CURSO.DEV'
 
     },
     educationsDoDev: {
       course: 'Curso:',
       courseName: 'Basic JavaScript',
       start: 'Início:',
-      end: 'Fim:'
+      end: 'Fim:',
+      about: 'SOBRE A DODEV'
 
     },
     aboutTheSite: {
@@ -127,7 +135,6 @@ const messages = {
       featureTitleFirstExp3: 'Acesso a acordos em BD:',
       featureSubtitleFirstExp3: 'Através do PgAdmin tenho acesso aos clientes que fecharam acordos e como isso ter uma análise de perfil ou cancelamento de boletos',
       featureSubtitleFirstExp4: 'Análise de Dashboards em Power BI',
-      subtitleSecondExp: 'Desenvolvimento de aplicações web e mobile de acordo com a demanda de cada projeto. Gerenciamento e orientatções aos devs de como prosseguir com suas tarefas.',
       featuresTitleSecondExp: 'Projetos com:',
       footerSecondExp: 'Projetos ainda estão sendo desenvolvidos, logo serão incluídos ao meu portifólio'
     }
