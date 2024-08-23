@@ -11,13 +11,13 @@
       <div class="relative pl-8 sm:pl-32 py-6 group">
         <div class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
           <time class="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-20 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full">{{ $t('experiencies.since') }} 2024</time>
-          <div class="bg-white dark:bg-slate-900 rounded-lg px-6 py-2 pb-10 ring-1 ring-slate-900/5 shadow-xl" data-aos="fade-up">
+          <div class="bg-slate-900 rounded-lg px-6 py-2 pb-10 ring-1 ring-slate-900/5 shadow-xl" data-aos="fade-up">
             <div>
               <span class="inline-flex items-center justify-center p-1   rounded-md shadow-lg">
                 <img src="../assets/images/companies-logos/paschoalotto2.png" class="h-20" alt="">
               </span>
             </div>
-            <h3 class="text-slate-900 dark:text-white mt-5 text-base font-medium tracking-tight">{{ $t('professionalExperiences.firstExp') }}</h3>
+            <h3 class="text-white mt-5 text-base font-medium tracking-tight">{{ $t('professionalExperiences.firstExp') }}</h3>
             <div class="text-slate-500 dark:text-slate-400 mt-2 text-sm">
               <div class="mx-auto bg-white rounded-lg shadow-md overflow-hidden">
                 <div class="p-5">
@@ -48,13 +48,13 @@
           <time class="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-20 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full">
             {{ $t('experiencies.since') }} 2024
           </time>
-          <div class="bg-white dark:bg-slate-900 rounded-lg px-6 py-5 pb-10 ring-1 ring-slate-900/5 shadow-xl w-full" data-aos="fade-up">
+          <div class="bg-slate-900 rounded-lg px-6 py-5 pb-10 ring-1 ring-slate-900/5 shadow-xl w-full" data-aos="fade-up">
             <div>
               <span class="inline-flex items-center justify-center p-1   rounded-md shadow-lg">
                 <img src="../assets/images/logoazevedo.png" class="h-20" alt="">
               </span>
             </div>
-            <h3 class="text-slate-900 dark:text-white mt-5 text-base font-medium tracking-tight">FRONTEND ENGINEER FREELANCE - André Azevedo</h3>
+            <h3 class="text-white mt-5 text-base font-medium tracking-tight">FRONTEND ENGINEER FREELANCE - André Azevedo</h3>
             <div class="text-slate-500 dark:text-slate-400 mt-2 text-sm">
               <div class="mx-auto bg-white rounded-lg shadow-md overflow-hidden">
                 <div class="p-5">
