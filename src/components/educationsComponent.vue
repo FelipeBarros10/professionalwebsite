@@ -67,9 +67,9 @@
 
           <div class="flex flex-col justify-center items-center">
             <span class="font-medium text-white text-md my-2 xl:my-3 2xl:text-xl"><span class="font-bold text-white">Local:</span> DoDev</span>
-            <span class="font-medium text-white text-md my-2 xl:my-3 2xl:text-xl"><span class="font-bold text-white">{{ $t('educationsDev.course') }}</span> Básico de JavaScript </span>
-            <span class="font-medium text-white text-md my-2 xl:my-3 2xl:text-xl"><span class="font-bold text-white">{{ $t('educationsDev.start') }}</span> 2024 </span>
-            <span class="font-medium text-white text-md my-2 xl:my-3 2xl:text-xl"><span class="font-bold text-white">{{ $t('educationsDev.end') }}</span> 2024 </span>
+            <span class="font-medium text-white text-md my-2 xl:my-3 2xl:text-xl"><span class="font-bold text-white">{{ $t('educationsDoDev.course') }}</span> {{ $t('educationsDoDev.courseName') }} </span>
+            <span class="font-medium text-white text-md my-2 xl:my-3 2xl:text-xl"><span class="font-bold text-white">{{ $t('educationsDoDev.start') }}</span> 2024 </span>
+            <span class="font-medium text-white text-md my-2 xl:my-3 2xl:text-xl"><span class="font-bold text-white">{{ $t('educationsDoDev.end') }}</span> 2024 </span>
             <button class="bg-btn-dodev hover:bg-orange-300 text-white font-serif rounded-3xl px-3 py-3 my-5 font-bold shadow-xl 2xl:p-6 xl:border-2 xl:border-orange-400 xl:text-sm xl:mt-10 xl:mb-8 xl:rounded-full" @click="goToExternalLink('https://br.linkedin.com/company/dodev-school')">{{ $t('educationsDoDev.about') }}</button>
           </div>
         </div>

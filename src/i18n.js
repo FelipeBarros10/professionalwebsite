@@ -39,7 +39,7 @@ const messages = {
 
     educationsDoDev: {
       course: 'Course:',
-      courseName: 'Information of Systems',
+      courseName: 'Basic JavaScript',
       start: 'Start:',
       end: 'End:',
       about: 'ABOUT DODEV'
@@ -107,7 +107,7 @@ const messages = {
     },
     educationsDoDev: {
       course: 'Curso:',
-      courseName: 'Basic JavaScript',
+      courseName: 'Básico de JavaScript',
       start: 'Início:',
       end: 'Fim:',
       about: 'SOBRE A DODEV'
