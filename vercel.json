@@ -1,26 +1,13 @@
 {
   "builds": [
-    { "src": "App.vue", "use": "@vercel/static" },
-    { "src": "views/Home/indexPage.vue", "use": "@vercel/static" },
-    { "src": "views/Home/indexPage.vue", "use": "@vercel/static" },
-    { "src": "components/projectsComponent.vue", "use": "@vercel/static" },
-    { "src": "components/headerComponent.vue", "use": "@vercel/static" },
-    { "src": "components/experienciesComponent.vue", "use": "@vercel/static" },
-    { "src": "components/educationsComponent.vue", "use": "@vercel/static" },
-    { "src": "components/aboutMeComponent.vue", "use": "@vercel/static" },
-    { "src": "components/ModalProjects/modalProjects.vue", "use": "@vercel/static" },
-    { "src": "components/ModalAboutMe/modalAboutMe.vue", "use": "@vercel/static" },
-    { "src": "assets/css/tailwind.css", "use": "@vercel/static" },
-    { "src": "assets/css/fonts.css", "use": "@vercel/static" },
-    { "src": "main.js", "use": "@vercel/static" },
-    { "src": "i18n.js", "use": "@vercel/static" },
-    { "src": "assets/images/*", "use": "@vercel/static" }
+    { "src": "index.html", "use": "@vercel/static" },
+    { "src": "dist/**/*", "use": "@vercel/static" } // Serve todos os arquivos gerados na pasta dist
   ],
   "routes": [
-    { "src": "/", "dest": "views/Home/indexPage.vue" },
-    { "src": "/tailwind.css", "dest": "assets/css/tailwind.css" },
-    { "src": "/main.js", "dest": "main.js" },
-    { "src": "/fonts.css", "dest": "assets/css/fonts.css" },
-    { "src": "/images/(.*)", "dest": "assets/images/*" }
+    { "src": "/", "dest": "/index.html" },
+    { "src": "/tailwind.css", "dest": "/assets/css/tailwind.css" },
+    { "src": "/main.js", "dest": "/main.js" },
+    { "src": "/fonts.css", "dest": "/assets/css/fonts.css" },
+    { "src": "/images/(.*)", "dest": "/assets/images/$1" }
   ]
 }
