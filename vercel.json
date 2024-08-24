@@ -1,13 +1,8 @@
 {
   "builds": [
-    { "src": "index.html", "use": "@vercel/static" },
-    { "src": "dist/**/*", "use": "@vercel/static" } // Serve todos os arquivos gerados na pasta dist
+    { "src": "dist/index.html", "use": "@vercel/static" }
   ],
   "routes": [
-    { "src": "/", "dest": "/index.html" },
-    { "src": "/tailwind.css", "dest": "/assets/css/tailwind.css" },
-    { "src": "/main.js", "dest": "/main.js" },
-    { "src": "/fonts.css", "dest": "/assets/css/fonts.css" },
-    { "src": "/images/(.*)", "dest": "/assets/images/$1" }
+    { "src": "/(.*)", "dest": "/dist/$1" }
   ]
 }
