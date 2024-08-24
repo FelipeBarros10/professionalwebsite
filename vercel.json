@@ -17,10 +17,10 @@
     { "src": "assets/images/*", "use": "@vercel/static" }
   ],
   "routes": [
-    { "src": "/", "dest": "views/index.html" },
-    { "src": "/index.css", "dest": "css/index.css" },
-    { "src": "/index.js", "dest": "js/index.js" },
-    { "src": "/output.css", "dest": "css/output.css" },
-    { "src": "/images/(.*)", "dest": "assets/images/$1" }
+    { "src": "/", "dest": "views/Home/indexPage.vue" },
+    { "src": "/tailwind.css", "dest": "assets/css/tailwind.css" },
+    { "src": "/main.js", "dest": "main.js" },
+    { "src": "/fonts.css", "dest": "assets/css/fonts.css" },
+    { "src": "/images/(.*)", "dest": "assets/images/*" }
   ]
 }
